@@ -1,6 +1,9 @@
 package main.kurunsh.ventaja.generator;
 
 import main.kurunsh.ventaja.model.Attribute;
+import main.kurunsh.ventaja.model.Line;
+
+import java.util.List;
 
 public interface LineGenerator {
 
@@ -37,5 +40,12 @@ public interface LineGenerator {
    * @param position The position, where the {@link Attribute} should be removed.
    */
   void removeAttribute(final int position);
+
+  /**
+   * Writes the {@link Line}, using the {@link List} of Attributes.
+   *
+   * @return The created line.
+   */
+  Line writeLine();
 
 }
