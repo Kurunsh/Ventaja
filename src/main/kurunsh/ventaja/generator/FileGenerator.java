@@ -1,6 +1,6 @@
 package main.kurunsh.ventaja.generator;
 
-import main.kurunsh.ventaja.model.File;
+import main.kurunsh.ventaja.model.out.File;
 
 import com.sun.istack.internal.NotNull;
 

@@ -1,4 +1,4 @@
-package main.kurunsh.ventaja.model;
+package main.kurunsh.ventaja.model.in;
 
 /**
  * This class contains data, that can be assigned to an attribute. For example a bunch of firstnames, to fill up an
