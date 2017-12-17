@@ -30,4 +30,11 @@ public interface FileGenerator {
    */
   File generateFile();
 
+  /**
+   * Getter for the file suffix used by the Generator.
+   *
+   * @return The used fileSuffix.
+   */
+  String getFileSuffix();
+
 }
