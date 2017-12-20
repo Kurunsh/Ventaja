@@ -48,4 +48,11 @@ public interface LineGenerator {
    */
   Line writeLine();
 
+  /**
+   * Returns the number of {@link Attribute} located inside the LineGenerator.
+   *
+   * @return The count of {@link Attribute}s
+   */
+  Integer getColumnCount();
+
 }
