@@ -27,4 +27,6 @@ public interface Line {
    */
   String getFullLineAsString();
 
+  void setCells(final List<Cell> cells);
+
 }

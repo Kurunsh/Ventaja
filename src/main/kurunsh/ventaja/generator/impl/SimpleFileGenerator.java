@@ -6,7 +6,7 @@ import main.kurunsh.ventaja.model.out.File;
 
 import java.util.List;
 
-public class SimpleFileGenerator implements FileGenerator{
+public class SimpleFileGenerator implements FileGenerator {
 
   private static final String DEFAULT_FILE_SUFFIX = ".txt";
 

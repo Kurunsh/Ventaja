@@ -4,7 +4,7 @@ import main.kurunsh.ventaja.builder.Builder;
 import main.kurunsh.ventaja.generator.impl.SimpleLineGenerator;
 import main.kurunsh.ventaja.model.in.Attribute;
 
-public class SimpleLineGeneratorBuilder implements Builder<SimpleLineGenerator>{
+public class SimpleLineGeneratorBuilder implements Builder<SimpleLineGenerator> {
 
   private SimpleLineGenerator instance;
 

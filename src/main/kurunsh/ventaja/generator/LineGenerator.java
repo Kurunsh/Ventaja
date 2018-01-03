@@ -46,7 +46,7 @@ public interface LineGenerator {
    *
    * @return The created line.
    */
-  Line writeLine();
+  Line createLine();
 
   /**
    * Returns the number of {@link Attribute} located inside the LineGenerator.
@@ -54,5 +54,10 @@ public interface LineGenerator {
    * @return The count of {@link Attribute}s
    */
   Integer getColumnCount();
+
+  /**
+   * Returns the list of attributes.
+   */
+  List<Attribute> getAttributes();
 
 }

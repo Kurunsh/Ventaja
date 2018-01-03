@@ -20,4 +20,9 @@ public class SimpleAttributeBuilder implements Builder<Attribute> {
   public Attribute build() {
     return this.instance;
   }
+
+  public SimpleAttributeBuilder withAttributeName(final String name) {
+    this.instance.setName(name);
+    return this;
+  }
 }

@@ -1,5 +1,6 @@
 package main.kurunsh.ventaja.generator.impl;
 
+import main.kurunsh.ventaja.builder.impl.SimpleLineBuilder;
 import main.kurunsh.ventaja.generator.LineGenerator;
 import main.kurunsh.ventaja.model.in.Attribute;
 import main.kurunsh.ventaja.model.out.Line;
@@ -28,16 +29,26 @@ public class SimpleLineGenerator implements LineGenerator {
       attributes.add(attributes.size() - 1, attribute);
     } else {
       if ( attributes.size() >= position ) {
-        attributes.add(attribute);
+        attributes.add(position, attribute);
       } else {
-        attributes.add(attributes.size() - 1, attribute);
+        attributes.add(attribute);
       }
     }
   }
 
   @Override
   public void putAttributeAtPosition(final Attribute attribute, final int position) {
-
+    if ( attributes == null ) {
+      attributes = new ArrayList<Attribute>();
+      attributes.add(attributes.size() - 1, attribute);
+    } else {
+      if ( attributes.size() >= position ) {
+        attributes.remove(position);
+        attributes.add(position, attribute);
+      } else {
+        attributes.add(attribute);
+      }
+    }
   }
 
   @Override
@@ -46,12 +57,21 @@ public class SimpleLineGenerator implements LineGenerator {
   }
 
   @Override
-  public Line writeLine() {
-    return null;
+  public Line createLine() {
+    final Line line
+            = SimpleLineBuilder
+            .create()
+            .build();
+    return line;
   }
 
   @Override
   public Integer getColumnCount() {
     return attributes.size();
+  }
+
+  @Override
+  public List<Attribute> getAttributes() {
+    return attributes;
   }
 }

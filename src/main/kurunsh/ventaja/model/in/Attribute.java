@@ -10,4 +10,6 @@ public interface Attribute<T> {
 
   T getValue();
 
+  String getName();
+
 }
