@@ -2,6 +2,7 @@ package main.kurunsh.ventaja.builder.impl;
 
 import main.kurunsh.ventaja.builder.Builder;
 import main.kurunsh.ventaja.model.in.Attribute;
+import main.kurunsh.ventaja.model.in.Datapool;
 import main.kurunsh.ventaja.model.in.impl.SimpleAttribute;
 
 public class SimpleAttributeBuilder implements Builder<Attribute> {
@@ -23,6 +24,11 @@ public class SimpleAttributeBuilder implements Builder<Attribute> {
 
   public SimpleAttributeBuilder withAttributeName(final String name) {
     this.instance.setName(name);
+    return this;
+  }
+
+  public SimpleAttributeBuilder withDatapool(final Datapool<String> datapool) {
+    this.instance.setDataPool(datapool);
     return this;
   }
 }

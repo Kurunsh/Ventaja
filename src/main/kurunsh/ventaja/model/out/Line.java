@@ -29,4 +29,5 @@ public interface Line {
 
   void setCells(final List<Cell> cells);
 
+  void addCell(String name, Object value);
 }

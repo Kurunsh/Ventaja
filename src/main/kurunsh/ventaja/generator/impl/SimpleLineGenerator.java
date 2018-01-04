@@ -62,6 +62,9 @@ public class SimpleLineGenerator implements LineGenerator {
             = SimpleLineBuilder
             .create()
             .build();
+    for ( final Attribute attribute : this.attributes ) {
+      line.addCell(attribute.getName(), attribute.getValue());
+    }
     return line;
   }
 
