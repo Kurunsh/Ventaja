@@ -11,6 +11,7 @@ import java.util.List;
 public class SimpleLineGenerator implements LineGenerator {
 
   private List<Attribute> attributes;
+  private String cellSeperator;
 
   @Override
   public void addAttribute(final Attribute attribute) {
@@ -61,6 +62,7 @@ public class SimpleLineGenerator implements LineGenerator {
     final Line line
             = SimpleLineBuilder
             .create()
+            .withCellSeperator(this.cellSeperator)
             .build();
     for ( final Attribute attribute : this.attributes ) {
       line.addCell(attribute.getName(), attribute.getValue());
@@ -76,5 +78,9 @@ public class SimpleLineGenerator implements LineGenerator {
   @Override
   public List<Attribute> getAttributes() {
     return attributes;
+  }
+
+  public void setCellSeperator(final String cellSeperator) {
+    this.cellSeperator = cellSeperator;
   }
 }

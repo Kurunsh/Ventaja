@@ -8,7 +8,10 @@ import java.util.List;
 
 public class SimpleLine implements Line {
 
+  private static final String DEFAULT_CELL_SEPERATOR = " ";
+
   private List<Cell> cells;
+  private String cellSeperator;
 
   @Override
   public List<Cell> getCells() {
@@ -23,7 +26,16 @@ public class SimpleLine implements Line {
 
   @Override
   public String getFullLineAsString() {
-    return null;
+    final StringBuilder builder = new StringBuilder();
+    for ( final Cell cell : cells ) {
+      builder.append(cell.getValueAsString());
+      if ( this.cellSeperator == null || "".equals(this.cellSeperator) ) {
+        builder.append(DEFAULT_CELL_SEPERATOR);
+      } else {
+        builder.append(this.cellSeperator);
+      }
+    }
+    return builder.toString();
   }
 
   @Override
@@ -37,5 +49,9 @@ public class SimpleLine implements Line {
       this.cells = new ArrayList<Cell>();
     }
     this.cells.add(new SimpleStringCell(name, String.valueOf(value)));
+  }
+
+  public void setCellSeperator(final String cellSeperator) {
+    this.cellSeperator = cellSeperator;
   }
 }

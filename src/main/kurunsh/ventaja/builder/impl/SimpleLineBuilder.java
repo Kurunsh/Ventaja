@@ -23,4 +23,9 @@ public class SimpleLineBuilder implements Builder<Line> {
   public Line build() {
     return this.instance;
   }
+
+  public SimpleLineBuilder withCellSeperator(final String cellSeperator) {
+    this.instance.setCellSeperator(cellSeperator);
+    return this;
+  }
 }

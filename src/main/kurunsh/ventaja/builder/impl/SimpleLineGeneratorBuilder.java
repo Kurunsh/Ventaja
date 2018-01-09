@@ -21,8 +21,14 @@ public class SimpleLineGeneratorBuilder implements Builder<SimpleLineGenerator> 
     return this;
   }
 
+  public SimpleLineGeneratorBuilder withCellSeperator(final String lineSeperator) {
+    this.instance.setCellSeperator(lineSeperator);
+    return this;
+  }
+
   @Override
   public SimpleLineGenerator build() {
     return this.instance;
   }
+
 }

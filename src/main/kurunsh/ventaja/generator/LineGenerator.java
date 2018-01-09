@@ -60,4 +60,11 @@ public interface LineGenerator {
    */
   List<Attribute> getAttributes();
 
+  /**
+   * Returns the cellSeperator for the {@link Line}.
+   *
+   * @param cellSeperator The cellSeperator.
+   */
+  void setCellSeperator(final String cellSeperator);
+
 }

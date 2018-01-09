@@ -10,6 +10,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class SimpleLineGeneratorTest {
@@ -21,6 +22,12 @@ public class SimpleLineGeneratorTest {
   private static final String DATAPOOL_NAME_1 = "Datapool 1";
   private static final String DATAPOOL_NAME_2 = "Datapool 2";
   private static final String DATAPOOL_NAME_3 = "Datapool 3";
+
+  private static final String CELL_SEPERATOR = ";";
+
+  private static final List<String> FIRSTNAMES_SINGLE = Collections.singletonList("Alfred");
+  private static final List<String> LASTNAMES_SINGLE = Collections.singletonList("Meier");
+  private static final List<String> CITIES_SINGLE = Collections.singletonList("Hamburg");
 
   private static final List<String> FIRSTNAMES = Arrays.asList("Alfred","Agnes","Bertram");
   private static final List<String> LASTNAMES = Arrays.asList("Meier","Müller","Schulze");
@@ -93,11 +100,11 @@ public class SimpleLineGeneratorTest {
   }
 
   @Test
-  public void createLine() {
+  public void createLine_singleValues() {
 
-    final Datapool<String> datapool1 = buildDefaultStringDataPool(DATAPOOL_NAME_1, FIRSTNAMES);
-    final Datapool<String> datapool2 = buildDefaultStringDataPool(DATAPOOL_NAME_2, LASTNAMES);
-    final Datapool<String> datapool3 = buildDefaultStringDataPool(DATAPOOL_NAME_3, CITIES);
+    final Datapool<String> datapool1 = buildDefaultStringDataPool(DATAPOOL_NAME_1, FIRSTNAMES_SINGLE);
+    final Datapool<String> datapool2 = buildDefaultStringDataPool(DATAPOOL_NAME_2, LASTNAMES_SINGLE);
+    final Datapool<String> datapool3 = buildDefaultStringDataPool(DATAPOOL_NAME_3, CITIES_SINGLE);
 
     final Attribute attribute1 = buildAttribute(ATTRIBUTE_1, datapool1);
     final Attribute attribute2 = buildAttribute(ATTRIBUTE_2, datapool2);
@@ -106,12 +113,13 @@ public class SimpleLineGeneratorTest {
     final SimpleLineGenerator classToTest
             = SimpleLineGeneratorBuilder
             .create()
+            .withCellSeperator(CELL_SEPERATOR)
             .withAttribute(attribute1)
             .withAttribute(attribute2)
             .withAttribute(attribute3)
             .build();
     final Line line = classToTest.createLine();
-
+    Assert.assertEquals("Alfred;Meier;Hamburg;", line.getFullLineAsString());
   }
 
   private Attribute buildEmptyAttribute(final String name ) {
