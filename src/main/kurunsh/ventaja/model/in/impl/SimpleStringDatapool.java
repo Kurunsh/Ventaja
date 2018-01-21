@@ -1,6 +1,6 @@
-package main.kurunsh.ventaja.model.in.impl;
+package kurunsh.ventaja.model.in.impl;
 
-import main.kurunsh.ventaja.model.in.Datapool;
+import kurunsh.ventaja.model.in.Datapool;
 
 import java.util.List;
 

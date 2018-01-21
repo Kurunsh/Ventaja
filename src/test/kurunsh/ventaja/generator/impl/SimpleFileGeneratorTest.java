@@ -1,6 +1,7 @@
-package main.kurunsh.ventaja.generator.impl;
+package kurunsh.ventaja.generator.impl;
 
-import main.kurunsh.ventaja.builder.impl.SimpleFileGeneratorBuilder;
+import kurunsh.ventaja.builder.impl.SimpleFileGeneratorBuilder;
+import kurunsh.ventaja.generator.impl.SimpleFileGenerator;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -9,7 +10,7 @@ public class SimpleFileGeneratorTest {
   private static final String SUFFIX = ".txt";
 
   @Test
-  public void getFileSuffixTest_noSuffix() {
+  public void getFileSuffixTestNoSuffix() {
     final SimpleFileGenerator classToTest
             = SimpleFileGeneratorBuilder
             .create()
@@ -19,7 +20,7 @@ public class SimpleFileGeneratorTest {
   }
 
   @Test
-  public void getFileSuffixTest_txtSuffix() {
+  public void getFileSuffixTestTxtSuffix() {
     final SimpleFileGenerator classToTest
             = SimpleFileGeneratorBuilder
             .create()

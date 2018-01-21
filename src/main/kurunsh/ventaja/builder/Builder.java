@@ -1,4 +1,4 @@
-package main.kurunsh.ventaja.builder;
+package kurunsh.ventaja.builder;
 
 public interface Builder<T> {
 

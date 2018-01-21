@@ -1,7 +1,7 @@
-package main.kurunsh.ventaja.model.in.impl;
+package kurunsh.ventaja.model.in.impl;
 
-import main.kurunsh.ventaja.model.in.Attribute;
-import main.kurunsh.ventaja.model.in.Datapool;
+import kurunsh.ventaja.model.in.Attribute;
+import kurunsh.ventaja.model.in.Datapool;
 
 public class SimpleAttribute implements Attribute<String> {
 

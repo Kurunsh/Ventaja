@@ -1,9 +1,9 @@
-package main.kurunsh.ventaja.builder.impl;
+package kurunsh.ventaja.builder.impl;
 
-import main.kurunsh.ventaja.builder.Builder;
-import main.kurunsh.ventaja.model.out.Cell;
-import main.kurunsh.ventaja.model.out.Line;
-import main.kurunsh.ventaja.model.out.impl.SimpleLine;
+import kurunsh.ventaja.builder.Builder;
+import kurunsh.ventaja.model.out.Cell;
+import kurunsh.ventaja.model.out.Line;
+import kurunsh.ventaja.model.out.impl.SimpleLine;
 
 import java.util.List;
 

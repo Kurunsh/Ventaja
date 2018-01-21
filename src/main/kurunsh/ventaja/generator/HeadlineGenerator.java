@@ -1,4 +1,4 @@
-package main.kurunsh.ventaja.generator;
+package kurunsh.ventaja.generator;
 
 import java.util.List;
 

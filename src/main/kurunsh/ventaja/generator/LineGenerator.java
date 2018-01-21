@@ -1,7 +1,7 @@
-package main.kurunsh.ventaja.generator;
+package kurunsh.ventaja.generator;
 
-import main.kurunsh.ventaja.model.in.Attribute;
-import main.kurunsh.ventaja.model.out.Line;
+import kurunsh.ventaja.model.in.Attribute;
+import kurunsh.ventaja.model.out.Line;
 
 import java.util.List;
 

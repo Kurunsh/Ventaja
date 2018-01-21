@@ -1,4 +1,4 @@
-package main.kurunsh.ventaja.model.out;
+package kurunsh.ventaja.model.out;
 
 import java.util.List;
 

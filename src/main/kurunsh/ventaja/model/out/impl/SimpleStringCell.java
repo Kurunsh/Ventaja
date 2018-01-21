@@ -1,6 +1,6 @@
-package main.kurunsh.ventaja.model.out.impl;
+package kurunsh.ventaja.model.out.impl;
 
-import main.kurunsh.ventaja.model.out.Cell;
+import kurunsh.ventaja.model.out.Cell;
 
 public class SimpleStringCell implements Cell<String> {
 

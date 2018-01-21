@@ -1,8 +1,8 @@
-package main.kurunsh.ventaja.generator.impl;
+package kurunsh.ventaja.generator.impl;
 
-import main.kurunsh.ventaja.generator.FileGenerator;
-import main.kurunsh.ventaja.generator.LineGenerator;
-import main.kurunsh.ventaja.model.out.File;
+import kurunsh.ventaja.generator.FileGenerator;
+import kurunsh.ventaja.generator.LineGenerator;
+import kurunsh.ventaja.model.out.File;
 
 import java.util.List;
 

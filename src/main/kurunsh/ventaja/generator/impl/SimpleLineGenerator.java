@@ -1,9 +1,9 @@
-package main.kurunsh.ventaja.generator.impl;
+package kurunsh.ventaja.generator.impl;
 
-import main.kurunsh.ventaja.builder.impl.SimpleLineBuilder;
-import main.kurunsh.ventaja.generator.LineGenerator;
-import main.kurunsh.ventaja.model.in.Attribute;
-import main.kurunsh.ventaja.model.out.Line;
+import kurunsh.ventaja.builder.impl.SimpleLineBuilder;
+import kurunsh.ventaja.generator.LineGenerator;
+import kurunsh.ventaja.model.in.Attribute;
+import kurunsh.ventaja.model.out.Line;
 
 import java.util.ArrayList;
 import java.util.List;

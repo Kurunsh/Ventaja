@@ -1,7 +1,7 @@
-package main.kurunsh.ventaja.builder.impl;
+package kurunsh.ventaja.builder.impl;
 
-import main.kurunsh.ventaja.builder.Builder;
-import main.kurunsh.ventaja.model.in.impl.SimpleStringDatapool;
+import kurunsh.ventaja.builder.Builder;
+import kurunsh.ventaja.model.in.impl.SimpleStringDatapool;
 
 import java.util.List;
 

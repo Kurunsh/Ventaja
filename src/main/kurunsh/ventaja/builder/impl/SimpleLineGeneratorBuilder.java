@@ -1,8 +1,8 @@
-package main.kurunsh.ventaja.builder.impl;
+package kurunsh.ventaja.builder.impl;
 
-import main.kurunsh.ventaja.builder.Builder;
-import main.kurunsh.ventaja.generator.impl.SimpleLineGenerator;
-import main.kurunsh.ventaja.model.in.Attribute;
+import kurunsh.ventaja.builder.Builder;
+import kurunsh.ventaja.generator.impl.SimpleLineGenerator;
+import kurunsh.ventaja.model.in.Attribute;
 
 public class SimpleLineGeneratorBuilder implements Builder<SimpleLineGenerator> {
 

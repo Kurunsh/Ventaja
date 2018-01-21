@@ -1,7 +1,7 @@
-package main.kurunsh.ventaja.model.out.impl;
+package kurunsh.ventaja.model.out.impl;
 
-import main.kurunsh.ventaja.model.out.Cell;
-import main.kurunsh.ventaja.model.out.Line;
+import kurunsh.ventaja.model.out.Cell;
+import kurunsh.ventaja.model.out.Line;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,6 @@
-package main.kurunsh.ventaja.generator;
+package kurunsh.ventaja.generator;
 
-import main.kurunsh.ventaja.model.out.File;
-
-import com.sun.istack.internal.NotNull;
+import kurunsh.ventaja.model.out.File;
 
 import java.util.List;
 
@@ -20,7 +18,6 @@ public interface FileGenerator {
    *
    * @return a {@link List} of {@link LineGenerator}
    */
-  @NotNull
   List<LineGenerator> getLineGenerators();
 
   /**
