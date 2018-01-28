@@ -1,8 +1,9 @@
-package kurunsh.ventaja.model.out.impl;
+package kurunsh.ventaja.cell;
 
-import kurunsh.ventaja.model.out.Cell;
+import org.springframework.stereotype.Component;
 
-public class SimpleStringCell implements Cell<String> {
+@Component
+class SimpleStringCell implements Cell<String> {
 
   private String name;
   private String value;
@@ -10,6 +11,11 @@ public class SimpleStringCell implements Cell<String> {
   public SimpleStringCell( final String name, final String value ) {
     this.name = name;
     this.value = value;
+  }
+
+  SimpleStringCell( ) {
+    this.name = "";
+    this.value = "";
   }
 
   @Override
@@ -25,5 +31,13 @@ public class SimpleStringCell implements Cell<String> {
   @Override
   public String getValueAsString() {
     return value;
+  }
+
+  void setName(final String name) {
+    this.name = name;
+  }
+
+  void setValue(final String value) {
+    this.value = value;
   }
 }

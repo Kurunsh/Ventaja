@@ -1,14 +1,13 @@
-package kurunsh.ventaja.generator.impl;
+package kurunsh.ventaja.line;
 
-import kurunsh.ventaja.builder.impl.SimpleLineBuilder;
-import kurunsh.ventaja.generator.LineGenerator;
-import kurunsh.ventaja.model.in.Attribute;
-import kurunsh.ventaja.model.out.Line;
+import kurunsh.ventaja.attribute.Attribute;
+import kurunsh.ventaja.cell.Cell;
+import kurunsh.ventaja.cell.SimpleStringCellBuilder;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SimpleLineGenerator implements LineGenerator {
+class SimpleLineGenerator implements LineGenerator {
 
   private List<Attribute> attributes;
   private String cellSeperator;
@@ -65,7 +64,13 @@ public class SimpleLineGenerator implements LineGenerator {
             .withCellSeperator(this.cellSeperator)
             .build();
     for ( final Attribute attribute : this.attributes ) {
-      line.addCell(attribute.getName(), attribute.getValue());
+      final Cell cell
+              = SimpleStringCellBuilder
+              .create()
+              .withAttributeName(attribute.getName())
+              .withAttributeValue(attribute.getValue())
+              .build();
+      line.addCell(cell);
     }
     return line;
   }

@@ -1,13 +1,8 @@
-package kurunsh.ventaja.builder.impl;
+package kurunsh.ventaja.line;
 
 import kurunsh.ventaja.builder.Builder;
-import kurunsh.ventaja.model.out.Cell;
-import kurunsh.ventaja.model.out.Line;
-import kurunsh.ventaja.model.out.impl.SimpleLine;
 
-import java.util.List;
-
-public class SimpleLineBuilder implements Builder<Line> {
+class SimpleLineBuilder implements Builder<Line> {
 
   private SimpleLine instance;
 

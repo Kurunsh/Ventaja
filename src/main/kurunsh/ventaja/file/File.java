@@ -1,4 +1,6 @@
-package kurunsh.ventaja.model.out;
+package kurunsh.ventaja.file;
+
+import kurunsh.ventaja.line.Line;
 
 import java.util.List;
 

@@ -1,4 +1,6 @@
-package kurunsh.ventaja.generator;
+package kurunsh.ventaja.headline;
+
+import kurunsh.ventaja.line.LineGenerator;
 
 import java.util.List;
 

@@ -1,9 +1,7 @@
-package kurunsh.ventaja.builder.impl;
+package kurunsh.ventaja.attribute;
 
 import kurunsh.ventaja.builder.Builder;
-import kurunsh.ventaja.model.in.Attribute;
-import kurunsh.ventaja.model.in.Datapool;
-import kurunsh.ventaja.model.in.impl.SimpleAttribute;
+import kurunsh.ventaja.datapool.Datapool;
 
 public class SimpleAttributeBuilder implements Builder<Attribute> {
 

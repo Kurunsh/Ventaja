@@ -1,7 +1,5 @@
-package kurunsh.ventaja.generator.impl;
+package kurunsh.ventaja.file;
 
-import kurunsh.ventaja.builder.impl.SimpleFileGeneratorBuilder;
-import kurunsh.ventaja.generator.impl.SimpleFileGenerator;
 import org.junit.Assert;
 import org.junit.Test;
 

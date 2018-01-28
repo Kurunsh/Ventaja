@@ -1,12 +1,11 @@
-package kurunsh.ventaja.model.out.impl;
+package kurunsh.ventaja.line;
 
-import kurunsh.ventaja.model.out.Cell;
-import kurunsh.ventaja.model.out.Line;
+import kurunsh.ventaja.cell.Cell;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SimpleLine implements Line {
+class SimpleLine implements Line {
 
   private static final String DEFAULT_CELL_SEPERATOR = " ";
 
@@ -44,11 +43,11 @@ public class SimpleLine implements Line {
   }
 
   @Override
-  public void addCell(final String name, final Object value) {
+  public void addCell(final Cell cell) {
     if ( this.cells == null ) {
       this.cells = new ArrayList<Cell>();
     }
-    this.cells.add(new SimpleStringCell(name, String.valueOf(value)));
+    this.cells.add(cell);
   }
 
   public void setCellSeperator(final String cellSeperator) {

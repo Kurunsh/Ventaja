@@ -1,9 +1,9 @@
 package helper;
 
-import kurunsh.ventaja.builder.impl.SimpleAttributeBuilder;
-import kurunsh.ventaja.builder.impl.SimpleStringDatapoolBuilder;
-import kurunsh.ventaja.model.in.Attribute;
-import kurunsh.ventaja.model.in.Datapool;
+import kurunsh.ventaja.attribute.SimpleAttributeBuilder;
+import kurunsh.ventaja.datapool.SimpleStringDatapoolBuilder;
+import kurunsh.ventaja.attribute.Attribute;
+import kurunsh.ventaja.datapool.Datapool;
 
 import java.util.List;
 

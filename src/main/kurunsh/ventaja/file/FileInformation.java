@@ -1,8 +1,7 @@
-package kurunsh.ventaja.model.in;
+package kurunsh.ventaja.file;
 
-import kurunsh.ventaja.model.out.Cell;
-import kurunsh.ventaja.model.out.Line;
-import kurunsh.ventaja.model.out.File;
+import kurunsh.ventaja.cell.Cell;
+import kurunsh.ventaja.line.Line;
 
 public interface FileInformation {
 

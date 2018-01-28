@@ -1,4 +1,4 @@
-package kurunsh.ventaja.model.in;
+package kurunsh.ventaja.datapool;
 
 import java.util.List;
 

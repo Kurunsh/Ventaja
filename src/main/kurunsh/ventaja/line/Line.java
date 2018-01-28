@@ -1,4 +1,6 @@
-package kurunsh.ventaja.model.out;
+package kurunsh.ventaja.line;
+
+import kurunsh.ventaja.cell.Cell;
 
 import java.util.List;
 
@@ -27,7 +29,17 @@ public interface Line {
    */
   String getFullLineAsString();
 
+  /**
+   * Sets the {@link List} of {@link Cell} to the {@link Line}.
+   *
+   * @param cells The given {@link List} of {@link Cell}.
+   */
   void setCells(final List<Cell> cells);
 
-  void addCell(String name, Object value);
+  /**
+   * Adds the given {@link Cell} at the end of the cell list.
+   *
+   * @param cell The given {@link Cell}
+   */
+  void addCell(final Cell cell);
 }

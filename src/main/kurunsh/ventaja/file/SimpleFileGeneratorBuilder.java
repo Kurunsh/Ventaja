@@ -1,8 +1,7 @@
-package kurunsh.ventaja.builder.impl;
+package kurunsh.ventaja.file;
 
 import kurunsh.ventaja.builder.Builder;
-import kurunsh.ventaja.generator.LineGenerator;
-import kurunsh.ventaja.generator.impl.SimpleFileGenerator;
+import kurunsh.ventaja.line.LineGenerator;
 
 public class SimpleFileGeneratorBuilder implements Builder<SimpleFileGenerator> {
 

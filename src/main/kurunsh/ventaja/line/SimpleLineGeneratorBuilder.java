@@ -1,10 +1,9 @@
-package kurunsh.ventaja.builder.impl;
+package kurunsh.ventaja.line;
 
 import kurunsh.ventaja.builder.Builder;
-import kurunsh.ventaja.generator.impl.SimpleLineGenerator;
-import kurunsh.ventaja.model.in.Attribute;
+import kurunsh.ventaja.attribute.Attribute;
 
-public class SimpleLineGeneratorBuilder implements Builder<SimpleLineGenerator> {
+class SimpleLineGeneratorBuilder implements Builder<SimpleLineGenerator> {
 
   private SimpleLineGenerator instance;
 

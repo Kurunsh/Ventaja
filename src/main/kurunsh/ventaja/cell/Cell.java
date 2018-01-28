@@ -1,4 +1,4 @@
-package kurunsh.ventaja.model.out;
+package kurunsh.ventaja.cell;
 
 public interface Cell<T> {
 

@@ -1,12 +1,10 @@
-package kurunsh.ventaja.generator.impl;
+package kurunsh.ventaja.file;
 
-import kurunsh.ventaja.generator.FileGenerator;
-import kurunsh.ventaja.generator.LineGenerator;
-import kurunsh.ventaja.model.out.File;
+import kurunsh.ventaja.line.LineGenerator;
 
 import java.util.List;
 
-public class SimpleFileGenerator implements FileGenerator {
+class SimpleFileGenerator implements FileGenerator {
 
   private static final String DEFAULT_FILE_SUFFIX = ".txt";
 

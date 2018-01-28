@@ -1,15 +1,13 @@
-package kurunsh.ventaja.model.in.impl;
-
-import kurunsh.ventaja.model.in.Datapool;
+package kurunsh.ventaja.datapool;
 
 import java.util.List;
 
-public class SimpleStringDatapool implements Datapool<String> {
+class SimpleStringDatapool implements Datapool<String> {
 
   private String name;
   private List<String> values;
 
-  public SimpleStringDatapool(final String name, final List<String> values) {
+  SimpleStringDatapool(final String name, final List<String> values) {
     this.name = name;
     this.values = values;
   }

@@ -1,11 +1,9 @@
-package kurunsh.ventaja.generator.impl;
+package kurunsh.ventaja.line;
 
 import helper.TestBuildHelper;
-import kurunsh.ventaja.builder.impl.SimpleAttributeBuilder;
-import kurunsh.ventaja.builder.impl.SimpleLineGeneratorBuilder;
-import kurunsh.ventaja.model.in.Attribute;
-import kurunsh.ventaja.model.in.Datapool;
-import kurunsh.ventaja.model.out.Line;
+import kurunsh.ventaja.attribute.SimpleAttributeBuilder;
+import kurunsh.ventaja.attribute.Attribute;
+import kurunsh.ventaja.datapool.Datapool;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -45,7 +43,7 @@ public class SimpleLineGeneratorTest {
             .create()
             .withAttribute(attribute)
             .build();
-    Assert.assertEquals(new Integer(1), classToTest.getColumnCount());
+    Assert.assertEquals(Integer.valueOf(1), classToTest.getColumnCount());
   }
 
   @Test
@@ -60,7 +58,7 @@ public class SimpleLineGeneratorTest {
             .withAttribute(attribute)
             .withAttribute(null)
             .build();
-    Assert.assertEquals(new Integer(1), classToTest.getColumnCount());
+    Assert.assertEquals(Integer.valueOf(1), classToTest.getColumnCount());
   }
 
   @Test
@@ -75,7 +73,7 @@ public class SimpleLineGeneratorTest {
             .withAttribute(attribute2)
             .build();
     classToTest.addAttributeAtPosition(attribute3,1);
-    Assert.assertEquals(new Integer(3), classToTest.getColumnCount());
+    Assert.assertEquals(Integer.valueOf(3), classToTest.getColumnCount());
     Assert.assertEquals(attribute1, classToTest.getAttributes().get(0));
     Assert.assertEquals(attribute3, classToTest.getAttributes().get(1));
     Assert.assertEquals(attribute2, classToTest.getAttributes().get(2));
@@ -94,7 +92,7 @@ public class SimpleLineGeneratorTest {
             .withAttribute(attribute3)
             .build();
     classToTest.putAttributeAtPosition(attribute3,1);
-    Assert.assertEquals(new Integer(3), classToTest.getColumnCount());
+    Assert.assertEquals(Integer.valueOf(3), classToTest.getColumnCount());
     Assert.assertEquals(attribute1, classToTest.getAttributes().get(0));
     Assert.assertEquals(attribute3, classToTest.getAttributes().get(1));
     Assert.assertEquals(attribute3, classToTest.getAttributes().get(2));
