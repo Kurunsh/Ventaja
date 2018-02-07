@@ -2,6 +2,7 @@ package kurunsh.ventaja.file;
 
 import kurunsh.ventaja.line.LineGenerator;
 
+import java.util.ArrayList;
 import java.util.List;
 
 class SimpleFileGenerator implements FileGenerator {
@@ -10,6 +11,12 @@ class SimpleFileGenerator implements FileGenerator {
 
   private String fileSuffix;
 
+  private List<LineGenerator> lines;
+
+  public SimpleFileGenerator() {
+    this.lines = new ArrayList<>();
+  }
+
   @Override
   public void addLineGenerator(final LineGenerator generator) {
 
@@ -17,12 +24,16 @@ class SimpleFileGenerator implements FileGenerator {
 
   @Override
   public List<LineGenerator> getLineGenerators() {
-    return null;
+    return lines;
   }
 
   @Override
   public File generateFile() {
-    return null;
+    final File simpleFile = new SimpleFile();
+    for ( final LineGenerator lineGenerator : this.lines ) {
+      simpleFile.addLine(lineGenerator.createLine());
+    }
+    return simpleFile;
   }
 
   @Override

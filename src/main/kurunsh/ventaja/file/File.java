@@ -13,4 +13,11 @@ public interface File {
    */
   List<Line> getLines();
 
+  /**
+   * Adds a {@link Line} to the {@link Line}s.
+   *
+   * @param line: The given {@link Line}.
+   */
+  void addLine(Line line);
+
 }
