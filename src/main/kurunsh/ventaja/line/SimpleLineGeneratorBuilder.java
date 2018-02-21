@@ -3,7 +3,7 @@ package kurunsh.ventaja.line;
 import kurunsh.ventaja.builder.Builder;
 import kurunsh.ventaja.attribute.Attribute;
 
-class SimpleLineGeneratorBuilder implements Builder<SimpleLineGenerator> {
+public class SimpleLineGeneratorBuilder implements Builder<SimpleLineGenerator> {
 
   private SimpleLineGenerator instance;
 

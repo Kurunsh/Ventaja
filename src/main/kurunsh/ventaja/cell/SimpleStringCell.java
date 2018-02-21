@@ -1,8 +1,5 @@
 package kurunsh.ventaja.cell;
 
-import org.springframework.stereotype.Component;
-
-@Component
 class SimpleStringCell implements Cell<String> {
 
   private String name;

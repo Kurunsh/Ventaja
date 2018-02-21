@@ -1,6 +1,7 @@
 package kurunsh.ventaja.line;
 
 import helper.TestBuildHelper;
+import helper.TestConstants;
 import kurunsh.ventaja.attribute.SimpleAttributeBuilder;
 import kurunsh.ventaja.attribute.Attribute;
 import kurunsh.ventaja.datapool.Datapool;
@@ -14,24 +15,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class SimpleLineGeneratorTest {
-
-  private static final String ATTRIBUTE_VALUE_1 = "attribute1";
-  private static final String ATTRIBUTE_VALUE_2 = "attribute2";
-  private static final String ATTRIBUTE_VALUE_3 = "attribute3";
-
-  private static final String DATAPOOL_NAME_1 = "Datapool 1";
-  private static final String DATAPOOL_NAME_2 = "Datapool 2";
-  private static final String DATAPOOL_NAME_3 = "Datapool 3";
-
-  private static final String CELL_SEPERATOR = ";";
-
-  private static final List<String> FIRSTNAMES_SINGLE = Collections.singletonList("Alfred");
-  private static final List<String> LASTNAMES_SINGLE = Collections.singletonList("Meier");
-  private static final List<String> CITIES_SINGLE = Collections.singletonList("Hamburg");
-
-  private static final List<String> FIRSTNAMES = Arrays.asList("Alfred","Agnes","Bertram");
-  private static final List<String> LASTNAMES = Arrays.asList("Meier","Müller","Schulze");
-  private static final List<String> CITIES = Arrays.asList("Hamburg","Leipzig","Berlin");
 
   @Test
   public void addAttributeTestAddAttribute() {
@@ -64,9 +47,9 @@ public class SimpleLineGeneratorTest {
 
   @Test
   public void addAttributeTestAddAtPosition() {
-    final Attribute attribute1 = TestBuildHelper.buildEmptyAttribute(ATTRIBUTE_VALUE_1);
-    final Attribute attribute2 = TestBuildHelper.buildEmptyAttribute(ATTRIBUTE_VALUE_2);
-    final Attribute attribute3 = TestBuildHelper.buildEmptyAttribute(ATTRIBUTE_VALUE_3);
+    final Attribute attribute1 = TestBuildHelper.buildEmptyAttribute(TestConstants.ATTRIBUTE_VALUE_1);
+    final Attribute attribute2 = TestBuildHelper.buildEmptyAttribute(TestConstants.ATTRIBUTE_VALUE_2);
+    final Attribute attribute3 = TestBuildHelper.buildEmptyAttribute(TestConstants.ATTRIBUTE_VALUE_3);
     final SimpleLineGenerator classToTest
             = SimpleLineGeneratorBuilder
             .create()
@@ -82,9 +65,9 @@ public class SimpleLineGeneratorTest {
 
   @Test
   public void addAttributeTestPutAtPosition() {
-    final Attribute attribute1 = TestBuildHelper.buildEmptyAttribute(ATTRIBUTE_VALUE_1);
-    final Attribute attribute2 = TestBuildHelper.buildEmptyAttribute(ATTRIBUTE_VALUE_2);
-    final Attribute attribute3 = TestBuildHelper.buildEmptyAttribute(ATTRIBUTE_VALUE_3);
+    final Attribute attribute1 = TestBuildHelper.buildEmptyAttribute(TestConstants.ATTRIBUTE_VALUE_1);
+    final Attribute attribute2 = TestBuildHelper.buildEmptyAttribute(TestConstants.ATTRIBUTE_VALUE_2);
+    final Attribute attribute3 = TestBuildHelper.buildEmptyAttribute(TestConstants.ATTRIBUTE_VALUE_3);
     final SimpleLineGenerator classToTest
             = SimpleLineGeneratorBuilder
             .create()
@@ -102,18 +85,21 @@ public class SimpleLineGeneratorTest {
   @Test
   public void createLineSingleValues() {
 
-    final Datapool<String> datapool1 = TestBuildHelper.buildDefaultStringDataPool(DATAPOOL_NAME_1, FIRSTNAMES_SINGLE);
-    final Datapool<String> datapool2 = TestBuildHelper.buildDefaultStringDataPool(DATAPOOL_NAME_2, LASTNAMES_SINGLE);
-    final Datapool<String> datapool3 = TestBuildHelper.buildDefaultStringDataPool(DATAPOOL_NAME_3, CITIES_SINGLE);
+    final Datapool<String> datapool1 = TestBuildHelper.buildDefaultStringDataPool(TestConstants.DATAPOOL_NAME_1,
+            TestConstants.FIRSTNAMES_SINGLE);
+    final Datapool<String> datapool2 = TestBuildHelper.buildDefaultStringDataPool(TestConstants.DATAPOOL_NAME_2,
+            TestConstants.LASTNAMES_SINGLE);
+    final Datapool<String> datapool3 = TestBuildHelper.buildDefaultStringDataPool(TestConstants.DATAPOOL_NAME_3,
+            TestConstants.CITIES_SINGLE);
 
-    final Attribute attribute1 = TestBuildHelper.buildAttribute(ATTRIBUTE_VALUE_1, datapool1);
-    final Attribute attribute2 = TestBuildHelper.buildAttribute(ATTRIBUTE_VALUE_2, datapool2);
-    final Attribute attribute3 = TestBuildHelper.buildAttribute(ATTRIBUTE_VALUE_3, datapool3);
+    final Attribute attribute1 = TestBuildHelper.buildAttribute(TestConstants.ATTRIBUTE_VALUE_1, datapool1);
+    final Attribute attribute2 = TestBuildHelper.buildAttribute(TestConstants.ATTRIBUTE_VALUE_2, datapool2);
+    final Attribute attribute3 = TestBuildHelper.buildAttribute(TestConstants.ATTRIBUTE_VALUE_3, datapool3);
 
     final SimpleLineGenerator classToTest
             = SimpleLineGeneratorBuilder
             .create()
-            .withCellSeperator(CELL_SEPERATOR)
+            .withCellSeperator(TestConstants.CELL_SEPERATOR)
             .withAttribute(attribute1)
             .withAttribute(attribute2)
             .withAttribute(attribute3)
@@ -129,24 +115,27 @@ public class SimpleLineGeneratorTest {
   @Test
   public void createLineMultiValues() {
 
-    final Datapool<String> datapool1 = TestBuildHelper.buildDefaultStringDataPool(DATAPOOL_NAME_1, FIRSTNAMES);
-    final Datapool<String> datapool2 = TestBuildHelper.buildDefaultStringDataPool(DATAPOOL_NAME_2, LASTNAMES);
-    final Datapool<String> datapool3 = TestBuildHelper.buildDefaultStringDataPool(DATAPOOL_NAME_3, CITIES);
+    final Datapool<String> datapool1 = TestBuildHelper.buildDefaultStringDataPool(TestConstants.DATAPOOL_NAME_1,
+            TestConstants.FIRSTNAMES);
+    final Datapool<String> datapool2 = TestBuildHelper.buildDefaultStringDataPool(TestConstants.DATAPOOL_NAME_2,
+            TestConstants.LASTNAMES);
+    final Datapool<String> datapool3 = TestBuildHelper.buildDefaultStringDataPool(TestConstants.DATAPOOL_NAME_3,
+            TestConstants.CITIES);
 
-    final Attribute attribute1 = TestBuildHelper.buildAttribute(ATTRIBUTE_VALUE_1, datapool1);
-    final Attribute attribute2 = TestBuildHelper.buildAttribute(ATTRIBUTE_VALUE_2, datapool2);
-    final Attribute attribute3 = TestBuildHelper.buildAttribute(ATTRIBUTE_VALUE_3, datapool3);
+    final Attribute attribute1 = TestBuildHelper.buildAttribute(TestConstants.ATTRIBUTE_VALUE_1, datapool1);
+    final Attribute attribute2 = TestBuildHelper.buildAttribute(TestConstants.ATTRIBUTE_VALUE_2, datapool2);
+    final Attribute attribute3 = TestBuildHelper.buildAttribute(TestConstants.ATTRIBUTE_VALUE_3, datapool3);
 
     final SimpleLineGenerator classToTest
             = SimpleLineGeneratorBuilder
             .create()
-            .withCellSeperator(CELL_SEPERATOR)
+            .withCellSeperator(TestConstants.CELL_SEPERATOR)
             .withAttribute(attribute1)
             .withAttribute(attribute2)
             .withAttribute(attribute3)
             .build();
     final Line line = classToTest.createLine();
-    Assert.assertFalse(FIRSTNAMES
+    Assert.assertFalse(TestConstants.FIRSTNAMES
             .stream()
             .filter(string -> {
               try {

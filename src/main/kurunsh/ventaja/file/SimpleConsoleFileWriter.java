@@ -19,6 +19,13 @@ class SimpleConsoleFileWriter implements FileWriter {
               .withMessage("Given file is null!")
               .build();
     }
+    if ( file.getLines() == null || file.getLines().size() == 0 ) {
+      return SimpleMessageBuilder
+              .create()
+              .asError()
+              .withMessage("Given file contains no lines!")
+              .build();
+    }
     final List<String> messages = new ArrayList<>();
     int index = 0;
     for ( final Line line : file.getLines() ) {

@@ -19,7 +19,7 @@ class SimpleFileGenerator implements FileGenerator {
 
   @Override
   public void addLineGenerator(final LineGenerator generator) {
-
+    this.lines.add(generator);
   }
 
   @Override

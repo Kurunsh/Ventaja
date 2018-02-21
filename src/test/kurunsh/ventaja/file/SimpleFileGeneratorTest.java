@@ -1,5 +1,11 @@
 package kurunsh.ventaja.file;
 
+import helper.TestBuildHelper;
+import helper.TestConstants;
+import kurunsh.ventaja.attribute.Attribute;
+import kurunsh.ventaja.datapool.Datapool;
+import kurunsh.ventaja.line.LineGenerator;
+import kurunsh.ventaja.line.SimpleLineGeneratorBuilder;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -26,16 +32,45 @@ public class SimpleFileGeneratorTest {
   }
 
   @Test
-  public void generatorGetLinesTesEmptyLines() {
+  public void generatorGetLinesTestEmptyLines() {
     final FileGenerator classToTest = getSimpleFileGenerator();
     Assert.assertTrue(classToTest.getLineGenerators().isEmpty());
   }
 
   @Test
-  public void createEmptyFileTest() {
+  public void createEmptyFileGeneratorTest() {
     final FileGenerator classToTest = getSimpleFileGenerator();
     final File file = classToTest.generateFile();
     Assert.assertTrue(file.getLines().isEmpty());
+  }
+
+  @Test
+  public void createFileGeneratorTestOneLine() {
+    final Datapool<String> datapool1 = TestBuildHelper.buildDefaultStringDataPool(TestConstants.DATAPOOL_NAME_1,
+            TestConstants.FIRSTNAMES);
+    final Datapool<String> datapool2 = TestBuildHelper.buildDefaultStringDataPool(TestConstants.DATAPOOL_NAME_2,
+            TestConstants.LASTNAMES);
+    final Datapool<String> datapool3 = TestBuildHelper.buildDefaultStringDataPool(TestConstants.DATAPOOL_NAME_3,
+            TestConstants.CITIES);
+
+    final Attribute attribute1 = TestBuildHelper.buildAttribute(TestConstants.ATTRIBUTE_VALUE_1, datapool1);
+    final Attribute attribute2 = TestBuildHelper.buildAttribute(TestConstants.ATTRIBUTE_VALUE_2, datapool2);
+    final Attribute attribute3 = TestBuildHelper.buildAttribute(TestConstants.ATTRIBUTE_VALUE_3, datapool3);
+    final LineGenerator lineGenerator
+            = SimpleLineGeneratorBuilder
+            .create()
+            .withAttribute(attribute1)
+            .withAttribute(attribute2)
+            .withAttribute(attribute3)
+            .build();
+    final FileGenerator classToTest
+            = SimpleFileGeneratorBuilder
+            .create()
+            .withLineGenerator(lineGenerator)
+            .withFileSuffix(".txt")
+            .build();
+    final File file = classToTest.generateFile();
+    Assert.assertFalse(file.getLines().isEmpty());
   }
 
   private FileGenerator getSimpleFileGenerator() {
