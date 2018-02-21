@@ -4,6 +4,7 @@ import helper.TestBuildHelper;
 import kurunsh.ventaja.attribute.SimpleAttributeBuilder;
 import kurunsh.ventaja.attribute.Attribute;
 import kurunsh.ventaja.datapool.Datapool;
+import kurunsh.ventaja.exceptions.LineConverterException;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -118,7 +119,11 @@ public class SimpleLineGeneratorTest {
             .withAttribute(attribute3)
             .build();
     final Line line = classToTest.createLine();
-    Assert.assertEquals("Alfred;Meier;Hamburg;", line.getFullLineAsString());
+    try {
+      Assert.assertEquals("Alfred;Meier;Hamburg;", line.getFullLineAsString());
+    } catch (LineConverterException exception) {
+      System.out.println(exception.getMessage());
+    }
   }
 
   @Test
@@ -143,7 +148,14 @@ public class SimpleLineGeneratorTest {
     final Line line = classToTest.createLine();
     Assert.assertFalse(FIRSTNAMES
             .stream()
-            .filter(string -> line.getFullLineAsString().contains(string))
+            .filter(string -> {
+              try {
+                return line.getFullLineAsString().contains(string);
+              } catch (LineConverterException exception) {
+                System.out.println(exception.getMessage());
+                return false;
+              }
+            })
             .collect(Collectors.toList())
             .isEmpty());
   }

@@ -1,6 +1,7 @@
 package kurunsh.ventaja.line;
 
 import kurunsh.ventaja.cell.Cell;
+import kurunsh.ventaja.exceptions.LineConverterException;
 
 import java.util.List;
 
@@ -23,11 +24,13 @@ public interface Line {
   Cell getCellAtPosition(final int position) throws IllegalArgumentException;
 
   /**
-   *
+   * Returns the String representation for a full {@link Line}.
    *
    * @return The full Line as {@link String} representation;
+   * @throws {@link LineConverterException} as Wrapper for any exeption
+   *    during receiving the {@link Line} as a {@link String}.
    */
-  String getFullLineAsString();
+  String getFullLineAsString() throws LineConverterException;
 
   /**
    * Sets the {@link List} of {@link Cell} to the {@link Line}.

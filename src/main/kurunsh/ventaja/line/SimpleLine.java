@@ -1,6 +1,7 @@
 package kurunsh.ventaja.line;
 
 import kurunsh.ventaja.cell.Cell;
+import kurunsh.ventaja.exceptions.LineConverterException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +25,7 @@ class SimpleLine implements Line {
   }
 
   @Override
-  public String getFullLineAsString() {
+  public String getFullLineAsString() throws LineConverterException {
     final StringBuilder builder = new StringBuilder();
     for ( final Cell cell : cells ) {
       builder.append(cell.getValueAsString());

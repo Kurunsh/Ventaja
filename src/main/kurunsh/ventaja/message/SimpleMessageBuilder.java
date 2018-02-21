@@ -2,6 +2,8 @@ package kurunsh.ventaja.message;
 
 import kurunsh.ventaja.builder.Builder;
 
+import java.util.List;
+
 public class SimpleMessageBuilder implements Builder<SimpleMessage>{
 
   private final SimpleMessage instance;
@@ -20,8 +22,18 @@ public class SimpleMessageBuilder implements Builder<SimpleMessage>{
     return this;
   }
 
+  public SimpleMessageBuilder asSuccess() {
+    this.instance.setError(Boolean.FALSE);
+    return this;
+  }
+
   public SimpleMessageBuilder withMessage(final String message) {
     this.instance.addMessage(message);
+    return this;
+  }
+
+  public SimpleMessageBuilder withMessages(final List<String> messages) {
+    this.instance.setMessages(messages);
     return this;
   }
 }
