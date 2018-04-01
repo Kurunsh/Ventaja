@@ -18,6 +18,6 @@ public interface File {
    *
    * @param line: The given {@link Line}.
    */
-  void addLine(Line line);
+  void addLine(final Line line);
 
 }

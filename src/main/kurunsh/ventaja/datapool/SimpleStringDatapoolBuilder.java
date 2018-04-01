@@ -12,7 +12,7 @@ public class SimpleStringDatapoolBuilder implements Builder<SimpleStringDatapool
     return new SimpleStringDatapoolBuilder(name, values);
   }
 
-  public SimpleStringDatapoolBuilder(final String name, final List<String> values) {
+  private SimpleStringDatapoolBuilder(final String name, final List<String> values) {
     this.instance = new SimpleStringDatapool(name, values);
   }
 
