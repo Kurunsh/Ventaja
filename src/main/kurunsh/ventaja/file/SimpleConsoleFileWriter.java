@@ -1,5 +1,6 @@
 package kurunsh.ventaja.file;
 
+import kurunsh.ventaja.constants.ErrorMessageConstants;
 import kurunsh.ventaja.exceptions.LineConverterException;
 import kurunsh.ventaja.line.Line;
 import kurunsh.ventaja.message.Message;
@@ -16,14 +17,14 @@ class SimpleConsoleFileWriter implements FileWriter {
       return SimpleMessageBuilder
               .create()
               .asError()
-              .withMessage("Given file is null!")
+              .withMessage(ErrorMessageConstants.ERROR_WRITER_FILE_IS_NULL)
               .build();
     }
     if ( file.getLines() == null || file.getLines().size() == 0 ) {
       return SimpleMessageBuilder
               .create()
               .asError()
-              .withMessage("Given file contains no lines!")
+              .withMessage(ErrorMessageConstants.ERROR_WRITER_FILE_CONTAINS_NO_LINES)
               .build();
     }
     final List<String> messages = new ArrayList<>();

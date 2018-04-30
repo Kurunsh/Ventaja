@@ -1,1 +1,28 @@
-{"Writer" : "simpleconsolefilewriter"}
+{
+  "Writer": "simpleconsolefilewriter",
+  "Generator": {
+    "name" : "simplefilegenerator",
+    "suffix" : "-",
+    "linegenerator" : {
+      "name" : "simplelinegenerator",
+      "seperator" : "|",
+      "attributes" : [
+        {"datapool" : {
+            "name" : "Firstnames",
+            "values" : ["Alfred","Agnes","Bertram"]
+          }
+        },
+        {"datapool" : {
+          "name" : "Lastnames",
+          "values" : ["Meier","Müller","Schulze"]
+          }
+        },
+        {"datapool" : {
+          "name" : "Cities",
+          "values" : ["Hamburg","Leipzig","Berlin"]
+          }
+        }
+      ]
+    }
+  }
+}

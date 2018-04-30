@@ -4,13 +4,17 @@ import kurunsh.ventaja.builder.Builder;
 
 import java.util.List;
 
-public class SimpleMessageBuilder implements Builder<SimpleMessage>{
+public class SimpleMessageBuilder implements Builder<SimpleMessage> {
 
   private final SimpleMessage instance;
 
-  public static SimpleMessageBuilder create() { return new SimpleMessageBuilder(); }
+  public static SimpleMessageBuilder create() {
+    return new SimpleMessageBuilder();
+  }
 
-  private SimpleMessageBuilder() { this.instance = new SimpleMessage(); }
+  private SimpleMessageBuilder() {
+    this.instance = new SimpleMessage();
+  }
 
   @Override
   public SimpleMessage build() {
