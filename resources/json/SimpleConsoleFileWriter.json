@@ -5,6 +5,7 @@
       {
       "type": "kurunsh.ventaja.line.SimpleLineGenerator",
       "cellSeperator" : "|",
+      "lineCount" : "20",
       "attributes" : [
         { "type": "kurunsh.ventaja.attribute.SimpleAttribute",
           "name" : "Vorname",

@@ -37,7 +37,9 @@ class SimpleFileGenerator implements FileGenerator {
   public File generateFile() {
     final File simpleFile = new SimpleFile();
     for ( final LineGenerator lineGenerator : this.lineGenerator) {
-      simpleFile.addLine(lineGenerator.createLine());
+      for ( int count = 0 ; count < lineGenerator.getLineCount() ; count++ ) {
+        simpleFile.addLine(lineGenerator.createLine());
+      }
     }
     return simpleFile;
   }
@@ -51,7 +53,9 @@ class SimpleFileGenerator implements FileGenerator {
     return fileSuffix;
   }
 
-  public void setFileSuffix(final String fileSuffix) {
+  void setFileSuffix(final String fileSuffix) {
     this.fileSuffix = fileSuffix;
   }
+
+
 }

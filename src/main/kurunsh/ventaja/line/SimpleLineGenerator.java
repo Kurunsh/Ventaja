@@ -17,6 +17,7 @@ class SimpleLineGenerator implements LineGenerator {
 
   private List<Attribute> attributes;
   private String cellSeperator;
+  private int lineCount;
 
   @Override
   public void addAttribute(final Attribute attribute) {
@@ -93,5 +94,14 @@ class SimpleLineGenerator implements LineGenerator {
 
   public void setCellSeperator(final String cellSeperator) {
     this.cellSeperator = cellSeperator;
+  }
+
+  @Override
+  public int getLineCount() {
+    return this.lineCount;
+  }
+
+  void setLineCount(final int lineCount) {
+    this.lineCount = lineCount;
   }
 }

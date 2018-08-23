@@ -16,45 +16,4 @@ public class SimpleFileWriterCommandTest {
             .build();
     Assert.assertNotNull(command);
   }
-
-  @Test
-  public void createSimpleFileWriterCommandTestWithFileWriterByName() {
-    final FileWriterCommand command;
-    try {
-      command = SimpleFileWriterCommandBuilder
-      .create()
-      .withFileWriter("simpleconsolefilewriter")
-      .build();
-      Assert.assertNotNull(command);
-      Assert.assertEquals("SimpleConsoleFileWriter", command.getFileWriter().getClass().getSimpleName());
-    } catch (final FileWriterNotFoundException ignore) {
-      Assert.fail();
-    }
-  }
-
-  @Test
-  public void executeSimpleFileWriterCommandWithoutFile() {
-    final FileWriterCommand command;
-    try {
-      command = SimpleFileWriterCommandBuilder
-              .create()
-              .withFileWriter("simpleconsolefilewriter")
-              .build();
-      final Message message = command.execute();
-      Assert.assertTrue(message.isError());
-      Assert.assertEquals(ErrorMessageConstants.ERROR_WRITER_FILE_IS_NULL, message.getMessages().iterator().next());
-    } catch (final FileWriterNotFoundException ignore) {
-      Assert.fail();
-    }
-  }
-
-  @Test(expected = FileWriterNotFoundException.class)
-  public void createSimpleFileWriterCommandTestWithWrongFileWriter() throws FileWriterNotFoundException {
-    final FileWriterCommand command;
-    command = SimpleFileWriterCommandBuilder
-            .create()
-            .withFileWriter("wrongfilewriter")
-            .build();
-  }
-
 }

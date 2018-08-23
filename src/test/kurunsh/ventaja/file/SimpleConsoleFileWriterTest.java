@@ -65,6 +65,7 @@ public class SimpleConsoleFileWriterTest {
             .withAttribute(attribute1)
             .withAttribute(attribute2)
             .withAttribute(attribute3)
+            .withLineCount(1)
             .build();
     final SimpleFileGenerator fileGenerator
             = SimpleFileGeneratorBuilder

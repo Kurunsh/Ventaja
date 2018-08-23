@@ -30,4 +30,8 @@ public class SimpleLineGeneratorBuilder implements Builder<SimpleLineGenerator> 
     return this.instance;
   }
 
+  public SimpleLineGeneratorBuilder withLineCount(final int lineCount) {
+    this.instance.setLineCount(lineCount);
+    return this;
+  }
 }

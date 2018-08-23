@@ -70,4 +70,11 @@ public interface LineGenerator {
    */
   void setCellSeperator(final String cellSeperator);
 
+  /**
+   * The number of times, the line should be repeated.
+   *
+   * @return the count of lines
+   */
+  int getLineCount();
+
 }
