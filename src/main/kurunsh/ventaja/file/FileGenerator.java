@@ -1,9 +1,13 @@
 package kurunsh.ventaja.file;
 
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import kurunsh.ventaja.line.LineGenerator;
 
 import java.util.List;
 
+@JsonTypeInfo(use = JsonTypeInfo.Id.CLASS,
+        include = JsonTypeInfo.As.PROPERTY,
+        property = "type")
 public interface FileGenerator {
 
   /**
@@ -18,7 +22,7 @@ public interface FileGenerator {
    *
    * @return a {@link List} of {@link LineGenerator}
    */
-  List<LineGenerator> getLineGenerators();
+  List<LineGenerator> getLineGenerator();
 
   /**
    * Generates the file with testdata, using the contained {@link List} of {@link LineGenerator}.

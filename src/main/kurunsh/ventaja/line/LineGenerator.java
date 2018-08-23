@@ -1,9 +1,13 @@
 package kurunsh.ventaja.line;
 
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import kurunsh.ventaja.attribute.Attribute;
 
 import java.util.List;
 
+@JsonTypeInfo(use = JsonTypeInfo.Id.CLASS,
+        include = JsonTypeInfo.As.PROPERTY,
+        property = "type")
 public interface LineGenerator {
 
   /**

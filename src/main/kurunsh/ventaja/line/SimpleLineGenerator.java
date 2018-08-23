@@ -3,10 +3,16 @@ package kurunsh.ventaja.line;
 import kurunsh.ventaja.attribute.Attribute;
 import kurunsh.ventaja.cell.Cell;
 import kurunsh.ventaja.cell.SimpleStringCellBuilder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Setter
+@Getter
+@ToString
 class SimpleLineGenerator implements LineGenerator {
 
   private List<Attribute> attributes;

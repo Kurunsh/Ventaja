@@ -1,36 +1,42 @@
 package kurunsh.ventaja.file;
 
 import kurunsh.ventaja.line.LineGenerator;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Setter
+@Getter
+@ToString
 class SimpleFileGenerator implements FileGenerator {
 
   private static final String DEFAULT_FILE_SUFFIX = ".txt";
 
   private String fileSuffix;
 
-  private List<LineGenerator> lines;
+  private List<LineGenerator> lineGenerator;
 
-  public SimpleFileGenerator() {
-    this.lines = new ArrayList<>();
+  SimpleFileGenerator() {
+    this.lineGenerator = new ArrayList<>();
   }
 
   @Override
   public void addLineGenerator(final LineGenerator generator) {
-    this.lines.add(generator);
+    this.lineGenerator.add(generator);
   }
 
   @Override
-  public List<LineGenerator> getLineGenerators() {
-    return lines;
+  public List<LineGenerator> getLineGenerator() {
+    return lineGenerator;
   }
 
   @Override
   public File generateFile() {
     final File simpleFile = new SimpleFile();
-    for ( final LineGenerator lineGenerator : this.lines ) {
+    for ( final LineGenerator lineGenerator : this.lineGenerator) {
       simpleFile.addLine(lineGenerator.createLine());
     }
     return simpleFile;

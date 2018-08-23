@@ -4,7 +4,7 @@ import kurunsh.ventaja.file.File;
 import kurunsh.ventaja.file.FileWriter;
 import kurunsh.ventaja.message.Message;
 
-public class SimpleFileWriterCommand implements FileWriterCommand {
+class SimpleFileWriterCommand implements FileWriterCommand {
 
   private File file;
   private FileWriter fileWriter;

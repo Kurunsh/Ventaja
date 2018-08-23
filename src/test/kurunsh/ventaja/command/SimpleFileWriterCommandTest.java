@@ -26,7 +26,7 @@ public class SimpleFileWriterCommandTest {
       .withFileWriter("simpleconsolefilewriter")
       .build();
       Assert.assertNotNull(command);
-      Assert.assertTrue(command.getFileWriter().getClass().getSimpleName().equals("SimpleConsoleFileWriter"));
+      Assert.assertEquals("SimpleConsoleFileWriter", command.getFileWriter().getClass().getSimpleName());
     } catch (final FileWriterNotFoundException ignore) {
       Assert.fail();
     }

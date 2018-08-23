@@ -1,0 +1,30 @@
+{
+  "type": "kurunsh.ventaja.line.SimpleLineGenerator",
+  "cellSeperator" : "|",
+  "attributes" : [
+    { "type": "kurunsh.ventaja.attribute.SimpleAttribute",
+      "name" : "Vorname",
+      "dataPool" : {
+        "type" : "kurunsh.ventaja.datapool.SimpleStringDatapool",
+        "name" : "Firstnames",
+        "values" : ["Alfred","Agnes","Bertram"]
+      }
+    },
+    { "type": "kurunsh.ventaja.attribute.SimpleAttribute",
+      "name" : "Nachname",
+      "dataPool" : {
+        "type" : "kurunsh.ventaja.datapool.SimpleStringDatapool",
+        "name" : "Lastnames",
+        "values" : ["Meier","Müller","Schulze"]
+      }
+    },
+    { "type": "kurunsh.ventaja.attribute.SimpleAttribute",
+      "name" : "Stadt",
+      "dataPool" : {
+        "type" : "kurunsh.ventaja.datapool.SimpleStringDatapool",
+        "name" : "Cities",
+        "values" : ["Hamburg","Leipzig","Berlin"]
+      }
+    }
+  ]
+}

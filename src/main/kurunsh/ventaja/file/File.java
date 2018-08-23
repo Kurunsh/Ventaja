@@ -16,7 +16,7 @@ public interface File {
   /**
    * Adds a {@link Line} to the {@link Line}s.
    *
-   * @param line: The given {@link Line}.
+   * @param line The given {@link Line}.
    */
   void addLine(final Line line);
 

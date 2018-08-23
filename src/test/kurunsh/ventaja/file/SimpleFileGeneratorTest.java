@@ -34,7 +34,7 @@ public class SimpleFileGeneratorTest {
   @Test
   public void generatorGetLinesTestEmptyLines() {
     final FileGenerator classToTest = getSimpleFileGenerator();
-    Assert.assertTrue(classToTest.getLineGenerators().isEmpty());
+    Assert.assertTrue(classToTest.getLineGenerator().isEmpty());
   }
 
   @Test

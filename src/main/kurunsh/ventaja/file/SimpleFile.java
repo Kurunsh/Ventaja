@@ -5,7 +5,7 @@ import kurunsh.ventaja.line.Line;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SimpleFile implements File {
+class SimpleFile implements File {
 
   private List<Line> lines;
 

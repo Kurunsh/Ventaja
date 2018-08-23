@@ -1,7 +1,14 @@
 package kurunsh.ventaja.datapool;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
 import java.util.List;
 
+@Setter
+@Getter
+@ToString
 class SimpleStringDatapool implements Datapool<String> {
 
   private String name;
@@ -10,6 +17,10 @@ class SimpleStringDatapool implements Datapool<String> {
   SimpleStringDatapool(final String name, final List<String> values) {
     this.name = name;
     this.values = values;
+  }
+
+  public SimpleStringDatapool() {
+
   }
 
   @Override

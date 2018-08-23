@@ -1,5 +1,6 @@
 package kurunsh.ventaja.headline;
 
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import kurunsh.ventaja.line.LineGenerator;
 
 import java.util.List;
