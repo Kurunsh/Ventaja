@@ -4,7 +4,7 @@
   "lineGenerator": [
       {
       "type": "kurunsh.ventaja.line.SimpleLineGenerator",
-      "cellSeperator" : "|",
+      "cellSeperator" : " | ",
       "lineCount" : "20",
       "attributes" : [
         { "type": "kurunsh.ventaja.attribute.SimpleAttribute",
@@ -12,7 +12,7 @@
           "dataPool" : {
             "type" : "kurunsh.ventaja.datapool.SimpleStringDatapool",
             "name" : "Firstnames",
-            "values" : ["Alfred","Agnes","Bertram"]
+            "values" : ["Alfred","Agnes","Bertram","Waltraud","Bobo"]
           }
         },
         { "type": "kurunsh.ventaja.attribute.SimpleAttribute",
@@ -20,7 +20,7 @@
           "dataPool" : {
             "type" : "kurunsh.ventaja.datapool.SimpleStringDatapool",
             "name" : "Lastnames",
-            "values" : ["Meier","Müller","Schulze"]
+            "values" : ["Meier","Müller","Schulze","Wagner","Obermann"]
           }
         },
         { "type": "kurunsh.ventaja.attribute.SimpleAttribute",
@@ -28,7 +28,7 @@
           "dataPool" : {
             "type" : "kurunsh.ventaja.datapool.SimpleStringDatapool",
             "name" : "Cities",
-            "values" : ["Hamburg","Leipzig","Berlin"]
+            "values" : ["Hamburg","Leipzig","Berlin","Fulda","Würzburg"]
           }
         }
       ]

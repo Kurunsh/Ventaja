@@ -28,7 +28,7 @@ public class VentajaMain {
   /**
    * Main method for JsonParsing.
    *
-   * @param args first param should be filename for target json coonfiguration
+   * @param args first param should be filename for target json configuration
    */
   public static void main(final String[] args) {
 
@@ -38,8 +38,7 @@ public class VentajaMain {
     }
 
     final Path filePath = Paths.get(fileName);
-    try {
-      final InputStream stream = Files.newInputStream(filePath);
+    try ( final InputStream stream = Files.newInputStream(filePath) ) {
       final FileGenerator generator = SimpleFileGeneratorBuilder.create().withConfiguration(stream).build();
       final File file = generator.generateFile();
       final FileWriter writer = SimpleConsoleFileWriterBuilder.create().build();
@@ -49,10 +48,9 @@ public class VentajaMain {
               .build();
       command.execute();
 
-    } catch (final IOException | FileWriterNotFoundException e) {
-      e.printStackTrace();
+    } catch (final IOException | FileWriterNotFoundException exception) {
+      LOG.error("Error during File access / generation: ", exception);
     }
-
   }
 
 }

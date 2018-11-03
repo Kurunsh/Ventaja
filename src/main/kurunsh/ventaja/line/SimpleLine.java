@@ -10,22 +10,24 @@ class SimpleLine implements Line {
 
   private static final String DEFAULT_CELL_SEPERATOR = " ";
 
-  private List<Cell> cells;
+  private List<Cell> cells = new ArrayList<>();
   private String cellSeperator;
 
   @Override
   public List<Cell> getCells() {
-    return null;
+    return cells;
   }
 
   @Override
-  public Cell getCellAtPosition(final int position) throws IllegalArgumentException {
-
-    return null;
+  public Cell getCellAtPosition(final int position)  {
+    if ( position > cells.size() ) {
+      return cells.get(cells.size() - 1);
+    }
+    return cells.get(position);
   }
 
   @Override
-  public String getFullLineAsString() throws LineConverterException {
+  public String getFullLineAsString() {
     final StringBuilder builder = new StringBuilder();
     for ( final Cell cell : cells ) {
       builder.append(cell.getValueAsString());
@@ -35,18 +37,19 @@ class SimpleLine implements Line {
         builder.append(this.cellSeperator);
       }
     }
+    builder.append(System.lineSeparator());
     return builder.toString();
   }
 
   @Override
-  public void setCells(final List<Cell> cell) {
-
+  public void setCells(final List<Cell> cells) {
+    this.cells = cells;
   }
 
   @Override
   public void addCell(final Cell cell) {
     if ( this.cells == null ) {
-      this.cells = new ArrayList<Cell>();
+      this.cells = new ArrayList<>();
     }
     this.cells.add(cell);
   }
