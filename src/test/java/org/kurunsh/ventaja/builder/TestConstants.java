@@ -20,8 +20,8 @@ public class TestConstants {
   public static final List<String> LASTNAMES_SINGLE = Collections.singletonList("Meier");
   public static final List<String> CITIES_SINGLE = Collections.singletonList("Hamburg");
 
-  public static final List<String> FIRSTNAMES = Arrays.asList("Alfred","Agnes","Bertram");
-  public static final List<String> LASTNAMES = Arrays.asList("Meier","Müller","Schulze");
-  public static final List<String> CITIES = Arrays.asList("Hamburg","Leipzig","Berlin");
+  public static final List<String> FIRSTNAMES = Arrays.asList("Alfred", "Agnes", "Bertram");
+  public static final List<String> LASTNAMES = Arrays.asList("Meier", "Müller", "Schulze");
+  public static final List<String> CITIES = Arrays.asList("Hamburg", "Leipzig", "Berlin");
 
 }

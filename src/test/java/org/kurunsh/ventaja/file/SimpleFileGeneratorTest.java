@@ -106,9 +106,9 @@ public class SimpleFileGeneratorTest {
 
   private FileGenerator getSimpleFileGenerator() {
     return SimpleFileGeneratorBuilder
-    .create()
-    .withFileSuffix(".txt")
-    .build();
+            .create()
+            .withFileSuffix(".txt")
+            .build();
   }
 
 }

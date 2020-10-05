@@ -53,7 +53,7 @@ public class SimpleLineGeneratorTest {
             .withAttribute(attribute1)
             .withAttribute(attribute2)
             .build();
-    classToTest.addAttributeAtPosition(attribute3,1);
+    classToTest.addAttributeAtPosition(attribute3, 1);
     Assert.assertEquals(Integer.valueOf(3), classToTest.getColumnCount());
     Assert.assertEquals(attribute1, classToTest.getAttributes().get(0));
     Assert.assertEquals(attribute3, classToTest.getAttributes().get(1));
@@ -72,7 +72,7 @@ public class SimpleLineGeneratorTest {
             .withAttribute(attribute2)
             .withAttribute(attribute3)
             .build();
-    classToTest.putAttributeAtPosition(attribute3,1);
+    classToTest.putAttributeAtPosition(attribute3, 1);
     Assert.assertEquals(Integer.valueOf(3), classToTest.getColumnCount());
     Assert.assertEquals(attribute1, classToTest.getAttributes().get(0));
     Assert.assertEquals(attribute3, classToTest.getAttributes().get(1));
@@ -103,7 +103,7 @@ public class SimpleLineGeneratorTest {
             .build();
     final Line line = classToTest.createLine();
     try {
-      Assert.assertEquals("Alfred;Meier;Hamburg;", line.getFullLineAsString());
+      Assert.assertEquals("Alfred;Meier;Hamburg;" + System.lineSeparator(), line.getFullLineAsString());
     } catch (final LineConverterException exception) {
       System.out.println(exception.getMessage());
     }

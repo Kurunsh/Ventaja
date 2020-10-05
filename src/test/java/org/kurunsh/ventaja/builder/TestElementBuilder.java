@@ -9,14 +9,14 @@ import java.util.List;
 
 public class TestElementBuilder {
 
-  public static Attribute buildEmptyAttribute(final String name ) {
+  public static Attribute buildEmptyAttribute(final String name) {
     return SimpleAttributeBuilder
             .create()
             .withAttributeName(name)
             .build();
   }
 
-  public static Attribute buildAttribute(final String name, final Datapool<String> datapool ) {
+  public static Attribute buildAttribute(final String name, final Datapool<String> datapool) {
     return SimpleAttributeBuilder
             .create()
             .withAttributeName(name)
@@ -24,7 +24,7 @@ public class TestElementBuilder {
             .build();
   }
 
-  public static Datapool<String> buildDefaultStringDataPool(final String name, final List<String> values ) {
+  public static Datapool<String> buildDefaultStringDataPool(final String name, final List<String> values) {
     return SimpleStringDatapoolBuilder
             .create(name, values)
             .build();
