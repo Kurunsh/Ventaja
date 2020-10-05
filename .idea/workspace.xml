@@ -1,326 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/command/FileWriterCommand.java" mnemonic="1" />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dee8e30d-08b2-49c5-aa11-aea45174759b" name="Default" comment="Package fixes">
-      <change afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/command/FileWriterCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/command/SimpleFileWriterCommandBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleConsoleFileWriterBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/VentajaJsonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/VentajaJsonObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/VentajaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/VentajaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/attribute/Attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/attribute/Attribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/attribute/SimpleAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/attribute/SimpleAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/attribute/SimpleAttributeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/attribute/SimpleAttributeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/builder/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/cell/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/cell/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/cell/SimpleStringCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/cell/SimpleStringCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/cell/SimpleStringCellBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/cell/SimpleStringCellBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/command/FileWriterCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/command/SimpleFileWriterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/command/SimpleFileWriterCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/command/SimpleFileWriterCommandBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/constants/ErrorMessageConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/constants/ErrorMessageConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/datapool/Datapool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/datapool/Datapool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/datapool/SimpleStringDatapool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/datapool/SimpleStringDatapool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/datapool/SimpleStringDatapoolBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/datapool/SimpleStringDatapoolBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/exceptions/FileWriterNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/exceptions/FileWriterNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/exceptions/LineConverterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/exceptions/LineConverterException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/file/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/file/FileGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/FileGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/file/FileInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/FileInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/file/FileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/FileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/file/SimpleConsoleFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleConsoleFileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/file/SimpleConsoleFileWriterBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/file/SimpleFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/file/SimpleFileGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleFileGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/file/SimpleFileGeneratorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleFileGeneratorBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/headline/HeadlineGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/headline/HeadlineGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/line/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/line/LineGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/LineGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/line/SimpleLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/SimpleLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/line/SimpleLineBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/SimpleLineBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/line/SimpleLineGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/SimpleLineGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/line/SimpleLineGeneratorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/SimpleLineGeneratorBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/message/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/message/SimpleMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/message/SimpleMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kurunsh/ventaja/message/SimpleMessageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/message/SimpleMessageBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/helper/TestBuildHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/builder/TestElementBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/helper/TestConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/builder/TestConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kurunsh/ventaja/command/SimpleFileWriterCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/command/SimpleFileWriterCommandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kurunsh/ventaja/file/SimpleConsoleFileWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/file/SimpleConsoleFileWriterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kurunsh/ventaja/file/SimpleFileGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/file/SimpleFileGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kurunsh/ventaja/line/SimpleLineGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/line/SimpleLineGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/VentajaJsonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/VentajaJsonObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/VentajaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/VentajaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/attribute/Attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/attribute/Attribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/attribute/SimpleAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/attribute/SimpleAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/attribute/SimpleAttributeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/attribute/SimpleAttributeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/builder/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/cell/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/cell/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/cell/SimpleStringCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/cell/SimpleStringCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/cell/SimpleStringCellBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/cell/SimpleStringCellBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/command/FileWriterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/command/FileWriterCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/command/SimpleFileWriterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/command/SimpleFileWriterCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/command/SimpleFileWriterCommandBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/command/SimpleFileWriterCommandBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/constants/ErrorMessageConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/constants/ErrorMessageConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/datapool/Datapool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/datapool/Datapool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/datapool/SimpleStringDatapool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/datapool/SimpleStringDatapool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/datapool/SimpleStringDatapoolBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/datapool/SimpleStringDatapoolBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/exceptions/FileWriterNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/exceptions/FileWriterNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/exceptions/LineConverterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/exceptions/LineConverterException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/file/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/FileGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/file/FileGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/FileInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/file/FileInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/FileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/file/FileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleConsoleFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/file/SimpleConsoleFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleConsoleFileWriterBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/file/SimpleConsoleFileWriterBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/file/SimpleFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleFileGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/file/SimpleFileGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleFileGeneratorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/file/SimpleFileGeneratorBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/headline/HeadlineGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/headline/HeadlineGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/line/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/LineGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/line/LineGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/SimpleLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/line/SimpleLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/SimpleLineBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/line/SimpleLineBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/SimpleLineGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/line/SimpleLineGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/SimpleLineGeneratorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/line/SimpleLineGeneratorBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/message/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/message/SimpleMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/message/SimpleMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/kurunsh/ventaja/message/SimpleMessageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja/message/SimpleMessageBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/builder/TestConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/builder/TestElementBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/command/SimpleFileWriterCommandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/file/SimpleConsoleFileWriterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/file/SimpleFileGeneratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/line/SimpleLineGeneratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cpd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pmd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ventaja-0.0.2.jar" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/VentajaMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/org/kurunsh/ventaja/file/SimpleConsoleFileWriterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/org/kurunsh/ventaja/builder/TestElementBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/org/kurunsh/ventaja/file/SimpleFileGeneratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/LineGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/Line.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleFileGeneratorBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/headline/HeadlineGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/FileWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>surefire</find>
-      <find>juni</find>
-      <find>packa</find>
-      <find>true</find>
-      <find>src\test\resources</find>
-      <find>testF</find>
-      <find>solution</find>
-      <find>java.helper</find>
-      <find>java.kurunsh.ventaja.builder</find>
-    </findStrings>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/kurunsh/ventaja/file/SimpleFileGeneratorBuilder.java" />
-        <option value="$PROJECT_DIR$/src/test/kurunsh/ventaja/file/SimpleConsoleFileWriterTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/kurunsh/ventaja/command/SimpleFileWriterCommandBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kurunsh/ventaja/datapool/Datapool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kurunsh/ventaja/exceptions/LineConverterException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kurunsh/ventaja/file/FileGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kurunsh/ventaja/file/SimpleConsoleFileWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kurunsh/ventaja/file/SimpleConsoleFileWriterBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kurunsh/ventaja/file/FileWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kurunsh/ventaja/headline/HeadlineGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kurunsh/ventaja/line/LineGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/kurunsh/ventaja/file/SimpleFileGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/kurunsh/ventaja/line/SimpleLineGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kurunsh/ventaja/message/SimpleMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kurunsh/ventaja/line/Line.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kurunsh/ventaja/VentajaMain.java" />
-        <option value="$PROJECT_DIR$/src/test/java/builder/TestBuildHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/builder/TestElementBuilder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/kurunsh/ventaja/builder/TestElementBuilder.java" />
-        <option value="$PROJECT_DIR$/src/test/org/kurunsh/ventaja/builder/TestElementBuilder.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Ventaja" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Ventaja" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="854" />
-    <option name="height" value="1017" />
+  <component name="ProjectId" id="1YyWE8GxP3YyrP9BD7Gz3h1ETKp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Ventaja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ventaja" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ventaja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ventaja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ventaja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ventaja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ventaja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ventaja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="ventaja" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ventaja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ventaja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ventaja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ventaja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="ventaja" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ventaja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ventaja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="ventaja" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ventaja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ventaja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="ventaja" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ventaja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ventaja" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="ventaja" type="462c0819:PsiDirectoryNode" />
-              <item name="line" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552819228737" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="java.kurunsh.ventaja" />
       <recent name="java.kurunsh" />
+      <recent name="java.org.kurunsh" />
+      <recent name="java.org.kurunsh.ventaja" />
       <recent name="java" />
+      <recent name="java.kurunsh.ventaja" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/org/kurunsh/ventaja" />
+      <recent name="$PROJECT_DIR$/src/test/java/kurunsh/ventaja" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/kurunsh/ventaja" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.SimpleFileWriterCommandTest">
+  <component name="RunManager" selected="JUnit.All in ventaja">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -333,8 +122,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Ventaja" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ventaja" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ventaja" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ventaja" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -358,16 +158,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleConsoleFileWriterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ventaja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.ventaja.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.ventaja.file" />
+      <option name="MAIN_CLASS_NAME" value="java.ventaja.file.SimpleConsoleFileWriterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleFileWriterCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ventaja" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.kurunsh.ventaja.command.*" />
+          <option name="PATTERN" value="java.ventaja.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.kurunsh.ventaja.command" />
       <option name="MAIN_CLASS_NAME" value="org.kurunsh.ventaja.command.SimpleFileWriterCommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFileWriterCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ventaja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.ventaja.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.ventaja.command" />
+      <option name="MAIN_CLASS_NAME" value="java.ventaja.command.SimpleFileWriterCommandTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -382,6 +214,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -400,17 +233,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SimpleConsoleFileWriterTest" />
-      <item itemvalue="JUnit.All in Ventaja" />
       <item itemvalue="JUnit.SimpleFileWriterCommandTest" />
+      <item itemvalue="JUnit.All in ventaja" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in ventaja" />
         <item itemvalue="JUnit.SimpleFileWriterCommandTest" />
         <item itemvalue="JUnit.SimpleConsoleFileWriterTest" />
-        <item itemvalue="JUnit.All in Ventaja" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -421,48 +255,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520162429486</updated>
+      <workItem from="1583915212060" duration="130000" />
+      <workItem from="1583995112181" duration="529000" />
+      <workItem from="1601478473330" duration="741000" />
+      <workItem from="1601480122006" duration="2718000" />
+      <workItem from="1601483152222" duration="145000" />
+      <workItem from="1601534098620" duration="446000" />
+      <workItem from="1601557963829" duration="543000" />
+      <workItem from="1601621726567" duration="696000" />
+      <workItem from="1601911832316" duration="1795000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="All_in_Ventaja - 2018.03.04 at 20h 37m 49s.xml">
-      <configuration name="All in Ventaja" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleConsoleFileWriterTest - 2018.03.04 at 20h 37m 41s.xml">
-      <configuration name="SimpleConsoleFileWriterTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1405868" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22732362" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.31019038" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.34042552" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Maven" order="8" visible="true" weight="0.16992664" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -475,184 +281,51 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Package fixes" />
     <option name="LAST_COMMIT_MESSAGE" value="Package fixes" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/attribute/Attribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/VentajaJsonObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/attribute/SimpleAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/command/SimpleFileWriterCommandBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/datapool/Datapool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/exceptions/LineConverterException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/FileGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/command/FileWriterCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleConsoleFileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleConsoleFileWriterBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/checkstyle-result.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/message/SimpleMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/org/kurunsh/ventaja/line/SimpleLineGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
-          <caret line="139" column="29" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/VentajaMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/org/kurunsh/ventaja/file/SimpleConsoleFileWriterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/org/kurunsh/ventaja/builder/TestElementBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/org/kurunsh/ventaja/file/SimpleFileGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/LineGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/line/Line.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/headline/HeadlineGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/kurunsh/ventaja/file/SimpleFileGeneratorBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="100" y="123" width="1720" height="897" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1601480428426">
+      <screen x="0" y="23" width="1920" height="1097" />
+    </state>
+    <state x="100" y="123" width="1720" height="897" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1920.1097@0.23.1920.1097" timestamp="1601480428426" />
+    <state x="591" y="503" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1601482934198">
+      <screen x="0" y="23" width="1920" height="1097" />
+    </state>
+    <state x="591" y="503" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1920.1097@0.23.1920.1097" timestamp="1601482934198" />
+    <state x="730" y="460" width="497" height="223" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1601482506568">
+      <screen x="0" y="23" width="1920" height="1097" />
+    </state>
+    <state x="730" y="460" width="497" height="223" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1920.1097@0.23.1920.1097" timestamp="1601482506568" />
+    <state width="1920" height="204" key="GridCell.Tab.0.bottom" timestamp="1601483124715">
+      <screen x="0" y="23" width="1920" height="1097" />
+    </state>
+    <state width="1920" height="204" key="GridCell.Tab.0.bottom/0.23.1920.1097@0.23.1920.1097" timestamp="1601483124715" />
+    <state width="1920" height="204" key="GridCell.Tab.0.center" timestamp="1601483124715">
+      <screen x="0" y="23" width="1920" height="1097" />
+    </state>
+    <state width="1920" height="204" key="GridCell.Tab.0.center/0.23.1920.1097@0.23.1920.1097" timestamp="1601483124715" />
+    <state width="1920" height="204" key="GridCell.Tab.0.left" timestamp="1601483124715">
+      <screen x="0" y="23" width="1920" height="1097" />
+    </state>
+    <state width="1920" height="204" key="GridCell.Tab.0.left/0.23.1920.1097@0.23.1920.1097" timestamp="1601483124715" />
+    <state width="1920" height="204" key="GridCell.Tab.0.right" timestamp="1601483124715">
+      <screen x="0" y="23" width="1920" height="1097" />
+    </state>
+    <state width="1920" height="204" key="GridCell.Tab.0.right/0.23.1920.1097@0.23.1920.1097" timestamp="1601483124715" />
+    <state x="587" y="215" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601914179272">
+      <screen x="0" y="23" width="1920" height="1097" />
+    </state>
+    <state x="587" y="215" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.1097@0.23.1920.1097" timestamp="1601914179272" />
+    <state x="661" y="297" width="598" height="548" key="find.popup" timestamp="1601482110382">
+      <screen x="0" y="23" width="1920" height="1097" />
+    </state>
+    <state x="661" y="297" width="598" height="548" key="find.popup/0.23.1920.1097@0.23.1920.1097" timestamp="1601482110382" />
+    <state x="625" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1601913980317">
+      <screen x="0" y="23" width="1920" height="1097" />
+    </state>
+    <state x="625" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1920.1097@0.23.1920.1097" timestamp="1601913980317" />
   </component>
   <component name="masterDetails">
     <states>

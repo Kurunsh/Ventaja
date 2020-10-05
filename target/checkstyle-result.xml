@@ -1,3 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.3">
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/datapool/SimpleStringDatapoolBuilder.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/datapool/Datapool.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/datapool/SimpleStringDatapool.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/VentajaJsonObject.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/attribute/SimpleAttribute.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/attribute/SimpleAttributeBuilder.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/attribute/Attribute.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/file/SimpleConsoleFileWriterBuilder.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/file/SimpleConsoleFileWriter.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/file/FileWriter.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/file/SimpleFileGeneratorBuilder.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/file/SimpleFile.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/file/SimpleFileGenerator.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/file/File.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/file/FileInformation.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/file/FileGenerator.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/constants/ErrorMessageConstants.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/headline/HeadlineGenerator.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/message/Message.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/message/SimpleMessage.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/message/SimpleMessageBuilder.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/exceptions/FileWriterNotFoundException.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/exceptions/LineConverterException.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/VentajaMain.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/cell/SimpleStringCell.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/cell/SimpleStringCellBuilder.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/cell/Cell.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/line/SimpleLine.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/line/SimpleLineBuilder.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/line/SimpleLineGenerator.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/line/LineGenerator.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/line/SimpleLineGeneratorBuilder.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/line/Line.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/command/SimpleFileWriterCommand.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/command/SimpleFileWriterCommandBuilder.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/command/FileWriterCommand.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/main/java/org/kurunsh/ventaja/builder/Builder.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/test/java/org/kurunsh/ventaja/file/SimpleFileGeneratorTest.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/test/java/org/kurunsh/ventaja/file/SimpleConsoleFileWriterTest.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/test/java/org/kurunsh/ventaja/line/SimpleLineGeneratorTest.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/test/java/org/kurunsh/ventaja/command/SimpleFileWriterCommandTest.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/test/java/org/kurunsh/ventaja/builder/TestConstants.java">
+</file>
+<file name="/Users/pluessmartin/Projects/Ventaja/src/test/java/org/kurunsh/ventaja/builder/TestElementBuilder.java">
+</file>
 </checkstyle>
